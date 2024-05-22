@@ -1,0 +1,43 @@
+[2024-05-21 20:41:31] [ ERROR] [OdontologoServiceTest:28] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:42:42] [ ERROR] [OdontologoServiceTest:28] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:43:01] [ ERROR] [OdontologoServiceTest:28] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:46:07] [ ERROR] [OdontologoServiceTest:28] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:48:58] [ ERROR] [OdontologoServiceTest:31] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:48:58] [ ERROR] [Impl:46] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, ?, ?,?) [42104-224]
+[2024-05-21 20:52:53] [ ERROR] [OdontologoServiceTest:30] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:53:55] [ ERROR] [OdontologoServiceTest:31] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 20:53:55] [ ERROR] [Impl:46] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, ?, ?,?) [42104-224]
+[2024-05-21 20:58:36] [ ERROR] [OdontologoServiceTest:31] Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGOS(\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNUMERO_MATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGOS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NUMERO_MATRICULA INT NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-224]
+[2024-05-21 20:58:36] [ ERROR] [Impl:46] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, ?, ?,?) [42104-224]
+[2024-05-21 21:00:32] [ ERROR] [OdontologoServiceTest:31] Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGO(\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNUMERO_MATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGO(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NUMERO_MATRICULA INT NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-224]
+[2024-05-21 21:00:32] [ ERROR] [Impl:46] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, ?, ?,?) [42104-224]
+[2024-05-21 21:01:48] [ ERROR] [Impl:46] Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, ?, ?,?) [42102-224]
+[2024-05-21 21:02:43] [ INFO ] [Impl:35] odontologo Registrado: dh.backend.models.Odontologo@79defdc
+[2024-05-21 21:08:39] [ INFO ] [Impl:80] Medicamento devuelto: dh.backend.models.Odontologo@b86de0d
+[2024-05-21 21:08:48] [ INFO ] [Impl:80] Medicamento devuelto: dh.backend.models.Odontologo@b86de0d
